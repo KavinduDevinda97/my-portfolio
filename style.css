@@ -185,8 +185,8 @@ section {
 #profile {
     display: flex;
     justify-content: center;
-    gap: 5rem;
-    height: 80vh;
+    gap: 6rem;
+    height: 20vh;
 }
 
 .section__pic-container {
@@ -239,6 +239,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-top: 10px;
 }
 
 .btn {
@@ -328,6 +329,8 @@ section {
 /* EXPERIENCE SECTION */
 
 #skill {
+
+    display: flex;
     position: relative;
 }
 
@@ -346,11 +349,12 @@ section {
 
 .article-container {
     display: flex;
-    text-align: initial;
+    text-align: center;
     flex-wrap: wrap;
-    flex-direction: row;
-    gap: 2.5rem;
-    justify-content: normal;
+    justify-items: center;
+
+    justify-content: space-between;
+
 }
 
 
@@ -369,6 +373,7 @@ article {
 
 article .icon {
     cursor: auto;
+
 }
 
 /* PROJECTS SECTION */
